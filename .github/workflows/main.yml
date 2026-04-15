@@ -6,6 +6,10 @@ on:
     branches:
       - main 
 
+# FIX: Force GitHub to use the updated Node 24 engine
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 # 2. The Job: What are we doing?
 jobs:
   build-and-deploy:
