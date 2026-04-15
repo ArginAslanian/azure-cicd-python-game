@@ -3,7 +3,7 @@
 ## Overview
 This project demonstrates a complete Continuous Integration and Continuous Deployment (CI/CD) pipeline. I transformed a standard Python console application into a stateless Flask web app and automated its deployment to an Azure App Service using GitHub Actions.
 
-**[🎮 Play the live game here!] https://argin-higher-lower-game-h7g7hqewedeyhzaz.westus2-01.azurewebsites.net **
+**<a href="https://argin-higher-lower-game-h7g7hqewedeyhzaz.westus2-01.azurewebsites.net" target="_blank" rel="noopener noreferrer">🎮 Play the live game here!</a>**
 
 ## 🏗️ Architecture & Technologies Used
 * **Frontend:** HTML/CSS
@@ -21,6 +21,3 @@ This project demonstrates a complete Continuous Integration and Continuous Deplo
 ## 🔒 Security Best Practices Implemented
 * **Zero Hardcoded Secrets:** The Flask `SECRET_KEY` is injected via Azure Environment Variables, completely decoupled from the source code.
 * **Least Privilege Access:** The Azure Service Principal was granted the `Contributor` role scoped *strictly* to the specific Resource Group containing the App Service, rather than the entire subscription.
-
----
-*This project was built by Argin Aslanian as part of a cloud engineering portfolio.*
