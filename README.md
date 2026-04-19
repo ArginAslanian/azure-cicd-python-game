@@ -3,10 +3,6 @@
 ## Overview
 This project demonstrates a complete Continuous Integration and Continuous Deployment (CI/CD) pipeline. I transformed a standard Python console application into a stateless Flask web app and automated its deployment to an Azure App Service using GitHub Actions.
 
-[🎮 Play the live game here!] https://argin-higher-lower-game-h7g7hqewedeyhzaz.westus2-01.azurewebsites.net
-
-**⏱️ Note on Load Times:** To optimize cloud spend, this application is hosted on an Azure Free Tier (F1) Linux App Service. If the application has not received traffic in the last 20 minutes, the compute resources are temporarily suspended. Please allow 20-25 seconds for the "cold start" wake-up process during your first visit!
-
 ## 🏗️ Architecture & Technologies Used
 * **Frontend:** HTML/CSS
 * **Backend:** Python 3.13, Flask, Gunicorn
