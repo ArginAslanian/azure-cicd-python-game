@@ -19,3 +19,6 @@ This project demonstrates a complete Continuous Integration and Continuous Deplo
 ## 🔒 Security Best Practices Implemented
 * **Zero Hardcoded Secrets:** The Flask `SECRET_KEY` is injected via Azure Environment Variables, completely decoupled from the source code.
 * **Least Privilege Access:** The Azure Service Principal was granted the `Contributor` role scoped *strictly* to the specific Resource Group containing the App Service, rather than the entire subscription.
+
+## 🔒 Screenshots
+Screenshots from this project is included in this repository.
